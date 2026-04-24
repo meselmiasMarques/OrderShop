@@ -14,4 +14,8 @@
     <ProjectReference Include="..\OrderManagement.Core\OrderManagement.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>

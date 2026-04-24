@@ -10,4 +10,8 @@
     <ProjectReference Include="..\OrderManagement.Core\OrderManagement.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Handlers\" />
+  </ItemGroup>
+
 </Project>

@@ -8,6 +8,19 @@
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Remove="NewDirectory1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="NewDirectory1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="NewDirectory1\**" />
   </ItemGroup>
 
 </Project>
